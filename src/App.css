@@ -1,6 +1,54 @@
 *{
-  margin: 0;
+  margin: 10;
   padding: 0;
   box-sizing: border-box;
   position: relative
+}
+
+/* navbar styling */
+#navbar{
+  width:100%;
+  border-style: ridge;
+  border-width: 2px;
+  border-color: black
+}
+
+/* about-me styling */
+#about-me{
+  width:100%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: red
+}
+
+/* portfolio styling */
+#portfolio{
+  width:100%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: darkgreen
+}
+
+/* blogs styling */
+#tech-exp{
+  width:100%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: navy
+}
+
+/* twitter feed styling */
+#twitter{
+  width:100%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: darkslategrey
+}
+
+/* web links styling */
+#contact{
+  width:100%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black
 }
