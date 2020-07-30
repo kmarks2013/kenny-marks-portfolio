@@ -3,6 +3,7 @@ import AboutMe from '../components/AboutMe'
 import Portfolio from './Portfolio'
 import BlogContainer from './BlogContainer'
 import TwitterFeed from '../components/TwitterFeed'
+import WebLinks from '../components/WebLinks'
 
 function ContentContainer() {
     return (
@@ -11,6 +12,7 @@ function ContentContainer() {
             <Portfolio/>
             <BlogContainer/>
             <TwitterFeed/>
+            <WebLinks />
         </div>
     )
 }
