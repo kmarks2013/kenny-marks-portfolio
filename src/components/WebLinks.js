@@ -2,7 +2,7 @@ import React from 'react'
 
 function WebLinks() {
     return (
-        <div>
+        <div id='contact'>
             <p>external  links</p>
         </div>
     )
