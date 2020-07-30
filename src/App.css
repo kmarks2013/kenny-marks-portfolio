@@ -4,3 +4,10 @@
   box-sizing: border-box;
   position: relative
 }
+
+#navbar{
+  width:100%;
+  border-style: ridge;
+  border-width: 2px;
+  border-color: black
+}
