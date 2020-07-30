@@ -3,7 +3,7 @@ import AboutMe from '../components/AboutMe'
 
 function ContentContainer() {
     return (
-        <div>
+        <div className='content'>
             <AboutMe/>
         </div>
     )
