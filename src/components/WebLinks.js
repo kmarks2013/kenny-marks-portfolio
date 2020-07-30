@@ -3,7 +3,7 @@ import React from 'react'
 function WebLinks() {
     return (
         <div id='contact'>
-            <p>external  links</p>
+            <p>external links</p>
         </div>
     )
 }
