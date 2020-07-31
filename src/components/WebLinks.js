@@ -10,7 +10,9 @@ function WebLinks() {
             <a className='link' href="https://github.com/kmarks2013" target="_blank" rel="noopener noreferrer">
                 <i className="fa fa-github" aria-hidden="true"></i>
             </a>
-            <i className="fa fa-twitter" aria-hidden="true"></i>
+            <a className='link' href="https://twitter.com/kmarks2013" target="_blank" rel="noopener noreferrer">
+                <i className="fa fa-twitter" aria-hidden="true"></i>
+            </a >
             <i className="fa fa-medium"></i>
         </div>
     )
