@@ -7,6 +7,7 @@ function WebLinks() {
             <i className="fa fa-linkedin" aria-hidden="true"></i>
             <i className="fa fa-github" aria-hidden="true"></i>
             <i className="fa fa-twitter" aria-hidden="true"></i>
+            <i className="fa fa-medium"></i>
         </div>
     )
 }
