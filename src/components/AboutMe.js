@@ -6,6 +6,8 @@ function AboutMe() {
             <h2 className='section-head'>About Me</h2>
             <h3>Bio:</h3>
             <p>Bio Text</p>
+            <h3>Technical Skills:</h3>
+            <p>Technical Text</p>
         </div>
     )
 }
