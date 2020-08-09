@@ -10,6 +10,8 @@ function AboutMe() {
             <p>Technical Text</p>
             <h3>Experience:</h3>
             <p>Experience Text</p>
+            <h3>Interests:</h3>
+            <p>Interest Text</p>
         </div>
     )
 }
