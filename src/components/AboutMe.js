@@ -12,6 +12,8 @@ function AboutMe() {
             <p>Experience Text</p>
             <h3>Interests:</h3>
             <p>Interest Text</p>
+            <h3>Hobbies:</h3>
+            <p>Hobbies Text</p>
         </div>
     )
 }
