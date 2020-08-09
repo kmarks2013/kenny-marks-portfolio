@@ -10,7 +10,8 @@
   width:100%;
   border-style: ridge;
   border-width: 2px;
-  border-color: black
+  border-color: black;
+  background-color: deepskyblue;
 }
 
 /* about-me styling */
