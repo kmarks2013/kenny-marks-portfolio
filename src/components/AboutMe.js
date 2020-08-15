@@ -11,6 +11,7 @@ function AboutMe() {
             <p>Technical Text</p>
             <h3>Experience:</h3>
             <p>Experience Text</p>
+            <img src='../assets/fruitsnacks.jpeg' alt='fruitsnacks'width='250px'/>
             <h3>Interests:</h3>
             <p>Interest Text</p>
             <h3>Hobbies:</h3>
