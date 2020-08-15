@@ -4,6 +4,18 @@ import Flippy, {FrontSide, BackSide} from 'react-flippy'
 function AboutMe() {
     return (
         <div id='about-me'>
+            <Flippy
+                flipOnClick={true}
+                flipDirection='horizontal'
+            >
+                <FrontSide>
+                    hello
+                </FrontSide>
+                <BackSide>
+                    goodbye
+                </BackSide>
+
+            </Flippy>
             <h2 className='section-head'>About Me</h2>
             <img className='about-img' src='../assets/headshot.jpg' alt='headshot'/>
             <h3>Bio:</h3>
