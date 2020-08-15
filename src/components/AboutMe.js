@@ -19,7 +19,11 @@ function AboutMe() {
                     <p>Experience Text</p>
                 </FrontSide>
                 <BackSide>
-                    goodbye
+                    <img className='about-img' src='../assets/fruitsnacks.jpeg' alt='fruitsnacks'/>
+                    <h3>Interests:</h3>
+                    <p>Interest Text</p>
+                    <h3>Hobbies:</h3>
+                    <p>Hobbies Text</p>
                 </BackSide>
 
             </Flippy>
