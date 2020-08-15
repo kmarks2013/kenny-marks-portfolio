@@ -4,6 +4,7 @@ function AboutMe() {
     return (
         <div id='about-me'>
             <h2 className='section-head'>About Me</h2>
+            <img src='../assets/headshot.jpg' alt='headshot'width='250px'/>
             <h3>Bio:</h3>
             <p>Bio Text</p>
             <h3>Technical Skills:</h3>
