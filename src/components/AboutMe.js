@@ -8,6 +8,7 @@ function AboutMe() {
             <Flippy
                 flipOnClick={true}
                 flipDirection='horizontal'
+                style={{ width: 'auto', height: 'auto' }}
             >
                 <FrontSide>
                     <img className='about-img' src='../assets/headshot.jpg' alt='headshot'/>
