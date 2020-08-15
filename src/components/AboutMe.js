@@ -24,11 +24,15 @@ function AboutMe() {
                     </div>
                 </FrontSide>
                 <BackSide>
-                    <img className='about-img' src='../assets/fruitsnacks.jpeg' alt='fruitsnacks'/>
-                    <h3>Interests:</h3>
-                    <p>Interest Text</p>
-                    <h3>Hobbies:</h3>
-                    <p>Hobbies Text</p>
+                    <div className='about-body'>
+                        <img className='about-img' src='../assets/fruitsnacks.jpeg' alt='fruitsnacks'/>
+                        <div className='about-info'>
+                            <h3>Interests:</h3>
+                            <p>Interest Text</p>
+                            <h3>Hobbies:</h3>
+                            <p>Hobbies Text</p>
+                        </div>
+                    </div>
                 </BackSide>
 
             </Flippy>
