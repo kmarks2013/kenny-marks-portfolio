@@ -26,6 +26,10 @@
   background-color: chocolate;
 }
 
+.about-body{
+  display: flex;
+}
+
 .about-img{
   width: 250px
 }
