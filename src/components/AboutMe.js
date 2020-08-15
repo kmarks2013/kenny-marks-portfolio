@@ -11,13 +11,17 @@ function AboutMe() {
                 style={{ width: 'auto', height: 'auto' }}
             >
                 <FrontSide>
-                    <img className='about-img' src='../assets/headshot.jpg' alt='headshot'/>
-                    <h3>Bio:</h3>
-                    <p>Bio Text</p>
-                    <h3>Technical Skills:</h3>
-                    <p>Technical Text</p>
-                    <h3>Experience:</h3>
-                    <p>Experience Text</p>
+                    <div className='about-body'>
+                        <img className='about-img' src='../assets/headshot.jpg' alt='headshot'/>
+                        <div className='about-info'>
+                            <h3>Bio:</h3>
+                            <p>Bio Text</p>
+                            <h3>Technical Skills:</h3>
+                            <p>Technical Text</p>
+                            <h3>Experience:</h3>
+                            <p>Experience Text</p>
+                        </div>
+                    </div>
                 </FrontSide>
                 <BackSide>
                     <img className='about-img' src='../assets/fruitsnacks.jpeg' alt='fruitsnacks'/>
