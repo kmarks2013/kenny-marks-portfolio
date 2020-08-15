@@ -1,4 +1,5 @@
 import React from 'react'
+import Flippy, {FrontSide, BackSide} from 'react-flippy'
 
 function AboutMe() {
     return (
