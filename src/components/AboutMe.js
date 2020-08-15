@@ -10,7 +10,13 @@ function AboutMe() {
                 flipDirection='horizontal'
             >
                 <FrontSide>
-                    hello
+                    <img className='about-img' src='../assets/headshot.jpg' alt='headshot'/>
+                    <h3>Bio:</h3>
+                    <p>Bio Text</p>
+                    <h3>Technical Skills:</h3>
+                    <p>Technical Text</p>
+                    <h3>Experience:</h3>
+                    <p>Experience Text</p>
                 </FrontSide>
                 <BackSide>
                     goodbye
