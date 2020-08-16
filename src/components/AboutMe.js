@@ -53,7 +53,10 @@ function AboutMe() {
                                 <p><span className='position' >Researcher,</span> 2014-2015</p>
                                 <ul className='duties'>
                                     <li>
-                                    Implemented acutely tuned customer service skills through addressing inquiries, and provided recommendations based on customer preferences.
+                                        Co-authored an internal report suggesting actionable recommendations for CTED, focusing on issues faced by the member states with regards to terrorism and cyber threats.
+                                    </li>
+                                    <li>
+                                        One of 6 students selected to participate in an annual partnership between NYU and the Counter Terrorism Committee Executive Directorate (CTED).
                                     </li>
                                 </ul>
                                 <p><span className='company' >Family Service Association,</span> Egg Harbor Township, NY</p>
