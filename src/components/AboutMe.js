@@ -43,7 +43,10 @@ function AboutMe() {
                                 <p><span className='position' >Global Cybercrime Research Intern,</span> 2015-2016</p>
                                 <ul className='duties'>
                                     <li>
-                                    Implemented acutely tuned customer service skills through addressing inquiries, and provided recommendations based on customer preferences.
+                                        Researched and monitored various cybercrime prevention trends and public policies in both the US and Europe.
+                                    </li>
+                                    <li>
+                                        Constructed an agenda to facilitate a working group between the Citizens Crime Commission, the FBI and the Attorney General's office of the Southern District of New York (SDNY).
                                     </li>
                                 </ul>
                                 <p><span className='company' >Counter-Terrorism Committee Executive Directorate,</span> New York, NY</p>
