@@ -60,7 +60,7 @@ function AboutMe() {
                                     Implemented acutely tuned customer service skills through addressing inquiries, and provided recommendations based on customer preferences.
                                     </li>
                                 </ul>
-                                <p><span className='company' >Fine Buy Rite</span>, Farmingdale, NY</p>
+                                <p><span className='company' >New Hope For  Cambodian Children</span>, Phnom Penh, Cambodia</p>
                                 <p><span className='position' >Assistant Manager</span>, 2017-2019</p>
                                 <ul className='duties'>
                                     <li>
