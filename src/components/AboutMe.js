@@ -47,7 +47,7 @@ function AboutMe() {
                                     </li>
                                 </ul>
                                 <p><span className='company' >Counter-Terrorism Committee Executive Directorate,</span> New York, NY</p>
-                                <p><span className='position' >Assistant Manager</span>, 2017-2019</p>
+                                <p><span className='position' >Researcher,</span> 2014-2015</p>
                                 <ul className='duties'>
                                     <li>
                                     Implemented acutely tuned customer service skills through addressing inquiries, and provided recommendations based on customer preferences.
