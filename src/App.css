@@ -56,6 +56,10 @@
   font-weight: bold;
 }
 
+.position{
+  font-style:italic;
+}
+
 /* portfolio styling */
 #portfolio{
   height:90vh;
