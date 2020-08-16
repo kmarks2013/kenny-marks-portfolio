@@ -34,7 +34,7 @@ function AboutMe() {
                             <p><span className='company' >Fine Buy Rite</span>, Farmingdale, NY</p>
                             <p>Experience Text</p>
                             <h3>Hobbies:</h3>
-                            <p>Hobbies Text</p>
+                            <p>  I am an avid gamer, blogger, love to build models, cook, run, travel, reading, volunteering. need  to  touch up this  section </p>
                         </div>
                     </div>
                 </BackSide>
