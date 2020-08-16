@@ -63,7 +63,7 @@ function AboutMe() {
                                 <p><span className='position' >Assistant Training Coordinator,</span> 2011-2013</p>
                                 <ul className='duties'>
                                     <li>
-                                    Implemented acutely tuned customer service skills through addressing inquiries, and provided recommendations based on customer preferences.
+                                        Conducted the fall and spring "Board and Care Core Operators Training Program" for over 100 boarding home operators throughout New Jersey.
                                     </li>
                                 </ul>
                                 <p><span className='company' >New Hope For  Cambodian Children</span>, Phnom Penh, Cambodia</p>
