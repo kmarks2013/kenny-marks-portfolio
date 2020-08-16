@@ -13,6 +13,15 @@
   border-width: 2px;
   border-color: black;
   background-color: deepskyblue;
+  position: sticky;
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+
+.content{
+  grid-area: content;
+  width: 100vw;
 }
 
 /* about-me styling */
