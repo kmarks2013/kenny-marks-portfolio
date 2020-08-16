@@ -31,7 +31,9 @@
   border-color: red;
   background-color: chocolate;
 }
-
+.flippy-front, .flippy-back {
+  height: 100vh;
+}
 .about-body{
   display: flex;
 }
