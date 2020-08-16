@@ -33,7 +33,7 @@ function AboutMe() {
                         <div className='experience'>
                                 <h3>Experience:</h3>
                                 <p><span className='company' >Fine Buy Rite,</span> Farmingdale, NY</p>
-                                <p><span className='position' >Assistant Manager</span>, 2017-2019</p>
+                                <p><span className='position' >Assistant Manager,</span> 2017-2019</p>
                                 <ul className='duties'>
                                     <li>
                                     Implemented acutely tuned customer service skills through addressing inquiries, and provided recommendations based on customer preferences.
