@@ -40,7 +40,7 @@ function AboutMe() {
                                     </li>
                                 </ul>
                                 <p><span className='company' >Citizens Crime Commission of NYC,</span> New York, NY</p>
-                                <p><span className='position' >Assistant Manager</span>, 2017-2019</p>
+                                <p><span className='position' >Global Cybercrime Research Intern,</span> 2015-2016</p>
                                 <ul className='duties'>
                                     <li>
                                     Implemented acutely tuned customer service skills through addressing inquiries, and provided recommendations based on customer preferences.
