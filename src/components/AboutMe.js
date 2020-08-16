@@ -54,7 +54,7 @@ function AboutMe() {
                                     </li>
                                 </ul>
                                 <p><span className='company' >Family Service Association,</span> Egg Harbor Township, NY</p>
-                                <p><span className='position' >Assistant Manager</span>, 2017-2019</p>
+                                <p><span className='position' >Assistant Training Coordinator,</span> 2011-2013</p>
                                 <ul className='duties'>
                                     <li>
                                     Implemented acutely tuned customer service skills through addressing inquiries, and provided recommendations based on customer preferences.
