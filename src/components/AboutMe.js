@@ -8,7 +8,12 @@ function AboutMe() {
             <Flippy
                 flipOnClick={true}
                 flipDirection='horizontal'
-                style={{ width: 'auto', height: 'auto' }}
+                style={{
+                    width: 'auto',
+                    height: '100vh',
+                    border: '1px solid black',
+                    'box-shadow': '2px 2px 10px 5px'
+                }}
             >
                 <FrontSide>
                     <div className='about-body'>
