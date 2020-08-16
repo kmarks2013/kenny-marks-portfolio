@@ -70,7 +70,7 @@ function AboutMe() {
                                 <p><span className='position' >Volunteer English Teacher,</span> 2017-2019</p>
                                 <ul className='duties'>
                                     <li>
-                                    Implemented acutely tuned customer service skills through addressing inquiries, and provided recommendations based on customer preferences.
+                                        Spent 75 days teaching English at an orphanage for children with HIV/AIDS
                                     </li>
                                 </ul>
                             </div>
