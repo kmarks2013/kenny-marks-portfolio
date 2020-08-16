@@ -30,9 +30,11 @@ function AboutMe() {
                     <div className='about-body'>
                         <img className='about-img' src='../assets/fruitsnacks.jpeg' alt='fruitsnacks'/>
                         <div className='about-info'>
-                            <h3>Experience:</h3>
-                            <p><span className='company' >Fine Buy Rite</span>, Farmingdale, NY</p>
-                            <p>Experience Text</p>
+                        <div className='experience'>
+                                <h3>Experience:</h3>
+                                <p><span className='company' >Fine Buy Rite</span>, Farmingdale, NY</p>
+                                <p><span className='position' >Assistant Manager</span>, 2017-2019</p>
+                            </div>
                             <h3>Hobbies:</h3>
                             <p>  I am an avid gamer, blogger, love to build models, cook, run, travel, reading, volunteering. need  to  touch up this  section </p>
                         </div>
