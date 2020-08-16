@@ -51,6 +51,10 @@
 .experience{
   height:50vh;
   overflow-y: scroll;
+}
+.company{
+  font-weight: bold;
+}
 
 /* portfolio styling */
 #portfolio{
