@@ -19,12 +19,10 @@ function AboutMe() {
                     <div className='about-body'>
                         <img className='about-img' src='../assets/headshot.jpg' alt='headshot'/>
                         <div className='about-info'>
-                            <h3>Bio:</h3>
-                            <p>Bio Text</p>
-                            <h3>Technical Skills:</h3>
-                            <p>Technical Text</p>
-                            <h3>Experience:</h3>
-                            <p>Experience Text</p>
+                            <h3 id="bio">Bio:</h3>
+                            <p className='bio-text'>New York based full-stack web developer experienced in Ruby on Rails, JavaScript, React, and Redux. Discovered a love of programming while completing graduate school studies in International Cybersecurity at New York University. Seeking to build exciting yet secure applications for both consumers and businesses use.</p>
+                            <h3> Technical Skills: </h3>
+                            <p className='bio-text'> Ruby | Ruby on Rails | HTML | CSS | JavaScript | React | Redux | React Native | MVC | SQL | SQLite | Postgresql | Responsive Web Design </p>
                         </div>
                     </div>
                 </FrontSide>
