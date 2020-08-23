@@ -17,7 +17,7 @@ function NavBar() {
             <a onClick={(e) => handleClick(e)} href='#portfolio' >My Work</a>
             <a onClick={(e) => handleClick(e)} href='#tech-writing' >Writings</a>
             <a onClick={(e) => handleClick(e)}>Twitter</a>
-            <a onClick={(e) => handleClick(e)} href='#contact'>Connect</a>
+            <a onClick={(e) => handleClick(e)} href='#contact' >Connect</a>
         </div>
     )
 }
