@@ -4,7 +4,7 @@ function NavBar() {
     const [title, setTitle] = useState("Kenny Marks")
     return (
         <div id='navbar'>
-            <h1 className='nav-title'>Kenny Marks</h1>
+            <h1 className='nav-title'>{title}</h1>
             <a href='#about-me'>About Me</a>
             <a>My Work</a>
             <a href='#tech-writing'>Writings</a>
