@@ -15,11 +15,11 @@ function NavBar() {
         <div id='navbar'>
             <h1 className='nav-title'>{title}</h1>
             <div className='nav-links'>
-                <NavLink smooth to='/#about-me'> About Me </NavLink>
-                <NavLink smooth to='/#portfolio'> Portfolio </NavLink>
-                <NavLink smooth to='/#tech-writing'> Blogs </NavLink>
+                <NavLink scroll={el => el.scrollIntoView({ behavior: 'smooth', block: 'end' })} to='/#about-me'> About Me </NavLink>
+                <NavLink scroll={el => el.scrollIntoView({ behavior: 'smooth', block: 'end' })} to='/#portfolio'> Portfolio </NavLink>
+                <NavLink scroll={el => el.scrollIntoView({ behavior: 'smooth', block: 'end' })} to='/#tech-writing'> Blogs </NavLink>
                 <NavLink scroll={el => el.scrollIntoView({ behavior: 'smooth', block: 'end' })} to='/#twitter'> Twitter </NavLink>
-                <NavLink smooth to='/#contact'> Connect </NavLink>
+                <NavLink scroll={el => el.scrollIntoView({ behavior: 'smooth', block: 'end' })} to='/#contact'> Connect </NavLink>
             </div>
         </div>
     )
