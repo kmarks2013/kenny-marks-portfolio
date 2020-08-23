@@ -32,7 +32,7 @@
   background-color: chocolate;
 }
 .flippy-front, .flippy-back {
-  height: 100vh;
+  height: 80vh;
 }
 .about-body{
   display: flex;
