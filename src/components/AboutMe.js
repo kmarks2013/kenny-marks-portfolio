@@ -23,33 +23,36 @@ function AboutMe() {
                             <p className='bio-text'>New York based full-stack web developer experienced in Ruby on Rails, JavaScript, React, and Redux. Discovered a love of programming while completing graduate school studies in International Cybersecurity at New York University. Seeking to build exciting yet secure applications for both consumers and businesses use.</p>
                             <h3> Technical Skills: </h3>
                             <table>
-                                <tr>
-                                    <td>Ruby</td>
-                                    <td>Redux</td>
-                                </tr>
-                                <tr>
-                                    <td>Ruby on Rails</td>
-                                    <td>React Native</td>
-                                </tr>
-                                <tr>
-                                    <td>HTML</td>
-                                    <td>MVC</td>
-                                </tr>
-                                <tr>
-                                    <td>CSS</td>
-                                    <td>SQLite</td>
-                                </tr>
-                                <tr>
-                                    <td>JavaScript</td>
-                                    <td>Postgresql</td>
-                                </tr>
-                                <tr>
-                                    <td>SQL</td>
-                                    <td>Responsive Web Design</td>
-                                </tr>
-                                <tr>
-                                    <td>React</td>
-                                </tr>
+                                <tbody>
+
+                                    <tr>
+                                        <td>Ruby</td>
+                                        <td>Redux</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Ruby on Rails</td>
+                                        <td>React Native</td>
+                                    </tr>
+                                    <tr>
+                                        <td>HTML</td>
+                                        <td>MVC</td>
+                                    </tr>
+                                    <tr>
+                                        <td>CSS</td>
+                                        <td>SQLite</td>
+                                    </tr>
+                                    <tr>
+                                        <td>JavaScript</td>
+                                        <td>Postgresql</td>
+                                    </tr>
+                                    <tr>
+                                        <td>SQL</td>
+                                        <td>Responsive Web Design</td>
+                                    </tr>
+                                    <tr>
+                                        <td>React</td>
+                                    </tr>
+                                </tbody>
                             </table>
                             <p className='bio-text'> Ruby | Ruby on Rails | HTML | CSS | JavaScript | React | Redux | React Native | MVC | SQL | SQLite | Postgresql | Responsive Web Design </p>
                         </div>
