@@ -1,4 +1,5 @@
 import React, {useState} from 'react'
+import { NavHashLink as NavLink } from 'react-router-hash-link';
 
 function NavBar() {
     const [title, setTitle] = useState("Kenny Marks")
@@ -13,11 +14,13 @@ function NavBar() {
     return (
         <div id='navbar'>
             <h1 className='nav-title'>{title}</h1>
-            <a onClick={(e) => handleClick(e)} href='#about-me' >About Me</a>
-            <a onClick={(e) => handleClick(e)} href='#portfolio' >My Work</a>
-            <a onClick={(e) => handleClick(e)} href='#tech-writing' >Writings</a>
-            <a onClick={(e) => handleClick(e)} href='#twitter' >Twitter</a>
-            <a onClick={(e) => handleClick(e)} href='#contact' >Connect</a>
+            <div className='nav-links'>
+                <NavLink scroll={el => el.scrollIntoView({ behavior: 'smooth', block: 'end' })} to='/#about-me'> About Me </NavLink>
+                <NavLink scroll={el => el.scrollIntoView({ behavior: 'smooth', block: 'end' })} to='/#portfolio'> Portfolio </NavLink>
+                <NavLink scroll={el => el.scrollIntoView({ behavior: 'smooth', block: 'end' })} to='/#tech-writing'> Blogs </NavLink>
+                <NavLink scroll={el => el.scrollIntoView({ behavior: 'smooth', block: 'end' })} to='/#twitter'> Twitter </NavLink>
+                <NavLink scroll={el => el.scrollIntoView({ behavior: 'smooth', block: 'end' })} to='/#contact'> Connect </NavLink>
+            </div>
         </div>
     )
 }
