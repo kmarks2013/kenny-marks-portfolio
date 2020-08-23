@@ -6,6 +6,7 @@ function NavBar() {
     const handleClick = (e) => {
         e.persist()
         console.log(e.target.text, e.target.textContent)
+        setTitle(e.target.text)
     }
 
 
