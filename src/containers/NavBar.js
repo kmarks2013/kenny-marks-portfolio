@@ -2,6 +2,13 @@ import React, {useState} from 'react'
 
 function NavBar() {
     const [title, setTitle] = useState("Kenny Marks")
+
+    const handleClick = (e) => {
+        e.persist()
+        console.log(e.target.text, e.target.textContent)
+    }
+
+
     return (
         <div id='navbar'>
             <h1 className='nav-title'>{title}</h1>
