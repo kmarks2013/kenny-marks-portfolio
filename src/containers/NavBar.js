@@ -15,11 +15,11 @@ function NavBar() {
         <div id='navbar'>
             <h1 className='nav-title'>{title}</h1>
             <div className='nav-links'>
-                <NavLink to='/#about-me'> About Me </NavLink>
-                <NavLink to='/#portfolio'> Portfolio </NavLink>
-                <NavLink to='/#tech-writing'> Blogs </NavLink>
-                <NavLink to='/#twitter'> Twitter </NavLink>
-                <NavLink to='/#contact'> Connect </NavLink>
+                <NavLink smooth to='/#about-me'> About Me </NavLink>
+                <NavLink smooth to='/#portfolio'> Portfolio </NavLink>
+                <NavLink smooth to='/#tech-writing'> Blogs </NavLink>
+                <NavLink smooth to='/#twitter'> Twitter </NavLink>
+                <NavLink smooth to='/#contact'> Connect </NavLink>
             </div>
         </div>
     )
