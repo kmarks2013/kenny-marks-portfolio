@@ -21,7 +21,10 @@ function NavBar() {
                 <a onClick={(e) => handleClick(e)} href='#twitter' >Twitter</a>
                 <a onClick={(e) => handleClick(e)} href='#contact' >Connect</a>
                 <NavLink to='/#about-me'> About Me </NavLink>
-
+                <NavLink to='/#portfolio'> Portfolio </NavLink>
+                <NavLink to='/#tech-writing'> Blogs </NavLink>
+                <NavLink to='/#twitter'> Twitter </NavLink>
+                <NavLink to='/#contact'> Connect </NavLink>
             </div>
         </div>
     )
