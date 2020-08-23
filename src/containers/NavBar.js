@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 
 function NavBar() {
+    const [title, setTitle] = useState("Kenny Marks")
     return (
         <div id='navbar'>
             <h1 className='nav-title'>Kenny Marks</h1>
