@@ -18,7 +18,7 @@ function NavBar() {
                 <NavLink smooth to='/#about-me'> About Me </NavLink>
                 <NavLink smooth to='/#portfolio'> Portfolio </NavLink>
                 <NavLink smooth to='/#tech-writing'> Blogs </NavLink>
-                <NavLink smooth to='/#twitter'> Twitter </NavLink>
+                <NavLink scroll={el => el.scrollIntoView({ behavior: 'smooth', block: 'end' })} to='/#twitter'> Twitter </NavLink>
                 <NavLink smooth to='/#contact'> Connect </NavLink>
             </div>
         </div>
