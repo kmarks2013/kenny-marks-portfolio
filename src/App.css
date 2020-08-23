@@ -32,18 +32,20 @@
   background-color: chocolate;
 }
 .flippy-front, .flippy-back {
-  height: 100vh;
+  height: 80vh;
 }
 .about-body{
   display: flex;
 }
 
 .about-img{
-  width: 250px;
-  height: 250px
+  width: 300px;
+  height: 300px;
+  border: 1px black solid;
 }
 
 .about-info{
+  border: 1px black solid;
   flex-direction: column;
   margin-left: 30px;
 }
@@ -54,16 +56,29 @@
 }
 .company{
   font-weight: bold;
+  margin: 0 0 0 0;
 }
 
 .position{
   font-style:italic;
+  margin: 0;
+  margin-left: 5px;
 }
 
 .duties{
   margin-left: 30px;
 }
 
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 2px;
+  background-color: rgba(0,0,0,.5);
+  -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
+}
 /* portfolio styling */
 #portfolio{
   height:90vh;
