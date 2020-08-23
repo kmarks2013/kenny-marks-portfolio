@@ -1,4 +1,5 @@
 import React, {useState} from 'react'
+import { NavHashLink as NavLink } from 'react-router-hash-link';
 
 function NavBar() {
     const [title, setTitle] = useState("Kenny Marks")
