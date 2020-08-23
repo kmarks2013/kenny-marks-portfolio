@@ -14,7 +14,7 @@ function NavBar() {
         <div id='navbar'>
             <h1 className='nav-title'>{title}</h1>
             <a onClick={(e) => handleClick(e)} href='#about-me'>About Me</a>
-            <a onClick={(e) => handleClick(e) }>My Work</a>
+            <a onClick={(e) => handleClick(e)} href='#portfolio' >My Work</a>
             <a onClick={(e) => handleClick(e)}  href='#tech-writing'>Writings</a>
             <a onClick={(e) => handleClick(e)}>Twitter</a>
             <a onClick={(e) => handleClick(e)} href='#contact'>Connect</a>
