@@ -129,6 +129,14 @@ body::-webkit-scrollbar {
   border-color: green;
 }
 
+.active-project{
+  display:block;
+}
+
+.inactive-projects{
+  display: none;
+}
+
 /* blogs styling */
 #tech-writing{
   height:90vh;
