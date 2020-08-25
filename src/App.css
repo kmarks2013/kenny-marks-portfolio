@@ -5,6 +5,9 @@
   position: relative;
 }
 
+body::-webkit-scrollbar {
+  display: none;
+}
 /* navbar styling */
 #navbar{
   width:100vw;
