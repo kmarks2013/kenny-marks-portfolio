@@ -7,9 +7,12 @@ import RightArrow from './RightArrow'
 function Carousel({data}) {
     const [current, setCurrent] = useState(0)
 
+    const goToNextSlide =() =>{
+        console.log('click')
+    }
+
     return (
         <div className='carousel'>
-        {/* {console.log(data)} */}
             <LeftArrow/>
             <ProjectSlide data={data} index={current}/>
             <RightArrow/>
