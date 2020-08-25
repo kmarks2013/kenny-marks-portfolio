@@ -13,12 +13,12 @@ function Carousel({data}) {
         } else{
             setCurrent(current+1)
         }
-
         console.log(current)
     }
 
     const goToPrevSlide = () => {
-        console.log('click')
+        setCurrent(current-1)
+        console.log(current)
     }
 
     return (
