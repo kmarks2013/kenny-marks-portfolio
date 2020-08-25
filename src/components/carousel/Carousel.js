@@ -7,6 +7,7 @@ import RightArrow from './RightArrow'
 function Carousel({data}) {
     return (
         <div className='carousel'>
+        {console.log(data)}
             <LeftArrow/>
             <ProjectSlide/>
             <RightArrow/>
