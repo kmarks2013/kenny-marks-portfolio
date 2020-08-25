@@ -47,6 +47,7 @@ body::-webkit-scrollbar {
 }
 .flippy-front, .flippy-back {
   height: 80vh;
+  cursor: pointer;
 }
 .about-body{
   display: flex;
