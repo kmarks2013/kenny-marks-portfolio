@@ -117,7 +117,7 @@ body::-webkit-scrollbar {
   justify-content: center;
   align-items: center;
   border: 1px orange solid;
-  margin: auto;
+  size: fill;
 }
 
 .projects {
