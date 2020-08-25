@@ -1,11 +1,9 @@
 import React from 'react'
 
-const ProjectSlide = ({data}) => {
+const ProjectSlide = ({data,index}) => {
     return (
         <div className='projects' >
-            {data.map(item => {
-                return <p>{item}</p>
-            })}
+          <p>{data[index]}</p>
         </div>
     )
 }
