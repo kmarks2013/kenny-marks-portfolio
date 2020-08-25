@@ -8,7 +8,12 @@ function Carousel({data}) {
     const [current, setCurrent] = useState(0)
 
     const goToNextSlide =() =>{
-        setCurrent(current+1)
+        if (current === data.length -1){
+            setCurrent(0)
+        } else{
+            setCurrent(current+1)
+        }
+
         console.log(current)
     }
 
