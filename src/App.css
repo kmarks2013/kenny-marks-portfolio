@@ -131,6 +131,7 @@ body::-webkit-scrollbar {
 
 .active-project{
   display:block;
+  border: 1px solid tomato;
 }
 
 .inactive-projects{
