@@ -16,7 +16,6 @@ const ProjectSlide = ({data,index}) => {
               </div>
             )
           }
-          <p>{data[index].title}</p>
         </div>
     )
 }
