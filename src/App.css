@@ -112,6 +112,7 @@ body::-webkit-scrollbar {
 }
 
 .left-arrow, .right-arrow{
+  width:10%;
   border: 1px orange solid;
   margin: auto;
 }
