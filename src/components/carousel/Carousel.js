@@ -17,7 +17,11 @@ function Carousel({data}) {
     }
 
     const goToPrevSlide = () => {
-        setCurrent(current-1)
+        if (current === 0){
+            setCurrent(data.length-1)
+        } else{
+            setCurrent(current-1)
+        }
         console.log(current)
     }
 
