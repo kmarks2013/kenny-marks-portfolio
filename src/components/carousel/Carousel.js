@@ -9,7 +9,7 @@ function Carousel({data}) {
 
     return (
         <div className='carousel'>
-        {console.log(data)}
+        {/* {console.log(data)} */}
             <LeftArrow/>
             <ProjectSlide data={data} index={current}/>
             <RightArrow/>
