@@ -54,7 +54,6 @@ function AboutMe() {
                                     </tr>
                                 </tbody>
                             </table>
-                            <p className='bio-text'> Ruby | Ruby on Rails | HTML | CSS | JavaScript | React | Redux | React Native | MVC | SQL | SQLite | Postgresql | Responsive Web Design </p>
                         </div>
                     </div>
                 </FrontSide>
