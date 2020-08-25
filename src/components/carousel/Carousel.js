@@ -15,7 +15,7 @@ function Carousel({data}) {
         <div className='carousel'>
             <LeftArrow/>
             <ProjectSlide data={data} index={current}/>
-            <RightArrow/>
+            <RightArrow goToNextSlide={goToNextSlide}/>
         </div>
     )
 }
