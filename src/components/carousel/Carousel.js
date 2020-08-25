@@ -17,7 +17,7 @@ function Carousel({data}) {
 
     return (
         <div className='carousel'>
-            <LeftArrow/>
+            <LeftArrow goToPrevSlide={goToPrevSlide}/>
             <ProjectSlide data={data} index={current}/>
             <RightArrow goToNextSlide={goToNextSlide}/>
         </div>
