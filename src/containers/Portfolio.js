@@ -6,7 +6,7 @@ const PROJECTS = [ 1,2,3,4 ]
 function Portfolio() {
     return (
         <div id='portfolio'>
-            <Carousel/>
+            <Carousel data={PROJECTS}/>
         </div>
     )
 }
