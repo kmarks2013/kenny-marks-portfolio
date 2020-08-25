@@ -11,6 +11,10 @@ function Carousel({data}) {
         console.log('click')
     }
 
+    const goToPrevSlide = () => {
+        console.log('click')
+    }
+
     return (
         <div className='carousel'>
             <LeftArrow/>
