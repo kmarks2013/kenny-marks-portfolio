@@ -5,7 +5,10 @@ const ProjectSlide = ({data,index}) => {
         <div className='projects' >
           {
             data.map((project, projectIndex) =>
-              <div>
+              <div 
+                className={projectIndex === index ? "active-project" : 'inactive-projects'}
+                key={projectIndex}
+              >
                 <p>{project.title}</p>
                 <p>{project.description}</p>
                 <p>{project.url}</p>
