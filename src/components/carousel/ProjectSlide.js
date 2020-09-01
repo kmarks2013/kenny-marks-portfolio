@@ -2,7 +2,7 @@ import React from 'react'
 
 const ProjectSlide = () => {
     return (
-        <div>
+        <div className='projects' >
             <p>I will be the proejcts!</p>
         </div>
     )
