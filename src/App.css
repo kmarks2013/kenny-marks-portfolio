@@ -107,6 +107,12 @@
   justify-content: space-between;
 }
 
+.left-arrow, .right-arrow{
+  border: 1px orange solid;
+  /* padding-top:40%; */
+  margin: auto;
+}
+
 /* blogs styling */
 #tech-writing{
   height:90vh;
