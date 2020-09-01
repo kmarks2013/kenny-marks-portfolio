@@ -5,7 +5,6 @@ function NavBar() {
     const [title, setTitle] = useState("Kenny Marks")
 
     const handleClick = (e) => {
-        console.log(e.target.text, e.target.textContent)
         setTitle(e.target.text)
     }
 
