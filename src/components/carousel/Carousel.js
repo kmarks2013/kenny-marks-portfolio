@@ -1,4 +1,5 @@
 import React from 'react'
+import LeftArrow from './LeftArrow'
 
 
 function Carousel() {
@@ -6,6 +7,7 @@ function Carousel() {
         <div>
             <p>
             Carousel component
+            <LeftArrow/>
             </p>
         </div>
     )
