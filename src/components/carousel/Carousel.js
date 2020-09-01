@@ -9,10 +9,10 @@ function Carousel() {
         <div>
             <p>
             Carousel component
+            </p>
             <LeftArrow/>
             <ProjectSlide/>
             <RightArrow/>
-            </p>
         </div>
     )
 }
