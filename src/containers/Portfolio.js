@@ -5,6 +5,7 @@ function Portfolio() {
     return (
         <div id='portfolio'>
             <p> Technical Experience</p>
+            <Carousel/>
         </div>
     )
 }
