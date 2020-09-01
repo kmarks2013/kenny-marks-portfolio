@@ -1,6 +1,7 @@
 import React from 'react'
 import LeftArrow from './LeftArrow'
 import ProjectSlide from './ProjectSlide'
+import RightArrow from './RightArrow'
 
 
 function Carousel() {
@@ -10,6 +11,7 @@ function Carousel() {
             Carousel component
             <LeftArrow/>
             <ProjectSlide/>
+            <RightArrow/>
             </p>
         </div>
     )
