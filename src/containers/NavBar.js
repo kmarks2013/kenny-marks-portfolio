@@ -14,7 +14,7 @@ function NavBar() {
         <div id='navbar'>
             <h1 className='nav-title'>{title}</h1>
             <div className='nav-links'>
-                <NavLink scroll={el => el.scrollIntoView({ behavior: 'smooth', block: 'end' })} to='/#about-me'  onClick={(e) => handleClick(e)} > About Me </NavLink>
+                <NavLink scroll={el => el.scrollIntoView({ behavior: 'smooth', block: 'end' })} to='/#about-me' onClick={(e) => handleClick(e)} > About Me </NavLink>
                 <NavLink scroll={el => el.scrollIntoView({ behavior: 'smooth', block: 'end' })} to='/#portfolio' onClick={(e) => handleClick(e)} > Portfolio </NavLink>
                 <NavLink scroll={el => el.scrollIntoView({ behavior: 'smooth', block: 'end' })} to='/#tech-writing'> Blogs </NavLink>
                 <NavLink scroll={el => el.scrollIntoView({ behavior: 'smooth', block: 'end' })} to='/#twitter'> Twitter </NavLink>
