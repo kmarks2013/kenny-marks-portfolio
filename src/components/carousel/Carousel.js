@@ -1,5 +1,6 @@
 import React from 'react'
 import LeftArrow from './LeftArrow'
+import ProjectSlide from './ProjectSlide'
 
 
 function Carousel() {
@@ -8,6 +9,7 @@ function Carousel() {
             <p>
             Carousel component
             <LeftArrow/>
+            <ProjectSlide/>
             </p>
         </div>
     )
