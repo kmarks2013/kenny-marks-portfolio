@@ -64,6 +64,7 @@
 .experience{
   height:50vh;
   overflow-y: scroll;
+  border: 1px solid grey;
 }
 .company{
   font-weight: bold;
