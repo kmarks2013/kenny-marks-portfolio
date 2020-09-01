@@ -6,10 +6,7 @@ import RightArrow from './RightArrow'
 
 function Carousel() {
     return (
-        <div>
-            <p>
-            Carousel component
-            </p>
+        <div className='carousel'>
             <LeftArrow/>
             <ProjectSlide/>
             <RightArrow/>
