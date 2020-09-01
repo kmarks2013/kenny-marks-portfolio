@@ -5,8 +5,6 @@ function NavBar() {
     const [title, setTitle] = useState("Kenny Marks")
 
     const handleClick = (e) => {
-        e.persist()
-        console.log(e.target.text, e.target.textContent)
         setTitle(e.target.text)
     }
 
@@ -15,11 +13,11 @@ function NavBar() {
         <div id='navbar'>
             <h1 className='nav-title'>{title}</h1>
             <div className='nav-links'>
-                <NavLink scroll={el => el.scrollIntoView({ behavior: 'smooth', block: 'end' })} to='/#about-me'> About Me </NavLink>
-                <NavLink scroll={el => el.scrollIntoView({ behavior: 'smooth', block: 'end' })} to='/#portfolio'> Portfolio </NavLink>
-                <NavLink scroll={el => el.scrollIntoView({ behavior: 'smooth', block: 'end' })} to='/#tech-writing'> Blogs </NavLink>
-                <NavLink scroll={el => el.scrollIntoView({ behavior: 'smooth', block: 'end' })} to='/#twitter'> Twitter </NavLink>
-                <NavLink scroll={el => el.scrollIntoView({ behavior: 'smooth', block: 'end' })} to='/#contact'> Connect </NavLink>
+                <NavLink scroll={el => el.scrollIntoView({ behavior: 'smooth', block: 'end' })} to='/#about-me' onClick={(e) => handleClick(e)} > About Me </NavLink>
+                <NavLink scroll={el => el.scrollIntoView({ behavior: 'smooth', block: 'end' })} to='/#portfolio' onClick={(e) => handleClick(e)} > Portfolio </NavLink>
+                <NavLink scroll={el => el.scrollIntoView({ behavior: 'smooth', block: 'end' })} to='/#tech-writing' onClick={(e) => handleClick(e)} > Blogs </NavLink>
+                <NavLink scroll={el => el.scrollIntoView({ behavior: 'smooth', block: 'end' })} to='/#twitter' onClick={(e) => handleClick(e)} > Twitter </NavLink>
+                <NavLink scroll={el => el.scrollIntoView({ behavior: 'smooth', block: 'end' })} to='/#contact' onClick={(e) => handleClick(e)} > Connect </NavLink>
             </div>
         </div>
     )
