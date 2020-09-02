@@ -3,7 +3,7 @@ import React from 'react'
 const RightArrow = () => {
     return (
         <div className='right-arrow'>
-            <i className='fa fa-angle-right fa-3x' aria-hidden='true'></i>
+            <i className='fa fa-angle-right fa-5x' aria-hidden='true'></i>
         </div>
     )
 }

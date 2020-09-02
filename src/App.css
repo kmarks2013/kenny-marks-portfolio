@@ -5,6 +5,9 @@
   position: relative;
 }
 
+body::-webkit-scrollbar {
+  display: none;
+}
 /* navbar styling */
 #navbar{
   width:100vw;
@@ -44,6 +47,7 @@
 }
 .flippy-front, .flippy-back {
   height: 80vh;
+  cursor: pointer;
 }
 .about-body{
   display: flex;
@@ -81,16 +85,17 @@
   margin-left: 30px;
 }
 
-::-webkit-scrollbar {
+.experience::-webkit-scrollbar {
   -webkit-appearance: none;
   width: 10px;
 }
 
-::-webkit-scrollbar-thumb {
+.experience::-webkit-scrollbar-thumb {
   border-radius: 2px;
   background-color: rgba(0,0,0,.5);
   -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
 }
+
 /* portfolio styling */
 #portfolio{
   height:90vh;
@@ -107,12 +112,17 @@
 }
 
 .left-arrow, .right-arrow{
+  width:10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border: 1px orange solid;
-  margin: auto;
+  size: fill;
+  cursor: pointer;
 }
 
 .projects {
-  width: 100%;
+  width: 80%;
   border-style: solid;
   border-width: 1px;
   border-color: green;
