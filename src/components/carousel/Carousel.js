@@ -9,7 +9,7 @@ function Carousel({data}) {
         <div className='carousel'>
         {console.log(data)}
             <LeftArrow/>
-            <ProjectSlide/>
+            <ProjectSlide data={data}/>
             <RightArrow/>
         </div>
     )

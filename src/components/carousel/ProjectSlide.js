@@ -1,9 +1,16 @@
 import React from 'react'
 
-const ProjectSlide = () => {
+const ProjectSlide = ({data}) => {
+
+    const itemTags = () => {
+        data.forEach( item => {
+            return <p>item</p>
+        })
+    }
     return (
         <div className='projects' >
-            <p>I will be the proejcts!</p>
+           {itemTags()}
+           <p> hi</p>
         </div>
     )
 }
