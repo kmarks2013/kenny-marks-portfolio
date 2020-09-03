@@ -14,9 +14,11 @@ const ProjectSlide = ({data,index}) => {
                 <p>{project.url}</p>
                 <p>{project.demo}</p>
                 <ul>
-                  {project.details.map(detail => {
-                    return <li>{detail}</li>
-                  })}
+                  {project.details.map((detail, detailIndex) =>
+                    <li className key={`detail-${detailIndex}`}>
+                      {detail}
+                    </li>
+                  )}
                 </ul>
               </div>
             )
