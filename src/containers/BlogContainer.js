@@ -9,7 +9,6 @@ function BlogContainer() {
             .then(data => {
                 let posts = data.items.filter(article => article.categories.length > 0)
                 setMediumPosts(posts)
-                console.log(posts)
             })
             .catch(err=> console.log(err))
     },[])
