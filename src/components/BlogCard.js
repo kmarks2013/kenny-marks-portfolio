@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Blog = () => {
+const BlogCard = () => {
     return (
         <div>
             ill render the whole Blog
@@ -8,4 +8,4 @@ const Blog = () => {
     )
 }
 
-export default Blog
+export default BlogCard
