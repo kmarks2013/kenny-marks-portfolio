@@ -1,9 +1,9 @@
 import React from 'react'
 
-const BlogImage = () => {
+const BlogImage = ({src}) => {
     return (
         <div>
-            i will show the image of a blog!
+            <img  width='50px' src={src} alt='img' />
         </div>
     )
 }
