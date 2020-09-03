@@ -12,7 +12,7 @@ const PROJECTS = [
         ],
         url: 'https://total-recall-game.netlify.app/',
         demo: 'demo',
-        screenshot: 'image'
+        screenshot: '../assets/totalrecall.png'
        },
     {
         title: "League of Loadouts",
