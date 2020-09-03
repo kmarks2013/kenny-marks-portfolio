@@ -45,7 +45,7 @@ const PROJECTS = [
             "Developed a Rails API with endpoints for users, whiteboards, thoughts, a to-do list, quotes, and doodles.",
             "Created a user interface utilizing object orientated JavaScript and CSS to design features and functionality."
         ],
-        url: 'website',
+        url: 'https://virtual-board-fa036.firebaseapp.com/',
         demo: 'demo',
         screenshot: 'image'
     }
