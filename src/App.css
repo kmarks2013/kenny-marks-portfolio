@@ -154,6 +154,14 @@ body::-webkit-scrollbar {
   padding-left: 50px;
 }
 
+
+.project-buttons{
+  display: flex;
+  justify-content: space-around;
+}
+
+
+
 /* blogs styling */
 #tech-writing{
   height:90vh;
