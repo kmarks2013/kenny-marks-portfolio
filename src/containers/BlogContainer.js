@@ -11,6 +11,7 @@ function BlogContainer() {
                 setMediumPosts(posts)
                 console.log(posts)
             })
+            .catch(err=> console.log(err))
     },[])
 
     return (
