@@ -11,7 +11,7 @@ const ProjectSlide = ({data,index}) => {
               >
                 <h2>{project.title}</h2>
                 <h5>{project.description}</h5>
-                <p>{project.screenshot}</p>
+                <img className='project-screenshot' src={project.screenshot} alt={project.title}/>
                 <ul className='project-details'>
                   {project.details.map((detail, detailIndex) =>
                     <li key={`detail-${detailIndex}`}>
