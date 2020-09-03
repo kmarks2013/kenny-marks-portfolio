@@ -10,8 +10,10 @@ const PROJECTS = [
             "Utilized SQL to arrange the scores table in descending order to create a top 10 list.",
             "Created an interactive user interface using Responsive Css to fit common screen sizes."
         ],
-        url: 'tba',
-        demo: 'coming soon'    },
+        url: 'webiste',
+        demo: 'demo',
+        screenshot: 'image'
+       },
     {
         title: "League of Loadouts",
         description: "A League of Legends champion loadout builder for players to design a build around their playstyle.",
@@ -20,8 +22,9 @@ const PROJECTS = [
             "Created an interactive user interface applying React, Redux, React-Router, React-Hover, and custom CSS.",
             "Employed custom routes and seraizlers in a Rails API to create dynamic end-points for front end use."
         ],
-        url: 'tba',
-        demo: 'coming soon'
+        url: 'website',
+        demo: 'demo',
+        screenshot: 'image'
     },
     {
         title: "The Doctor Regens",
@@ -31,8 +34,9 @@ const PROJECTS = [
             "Implemented authorization and authentication using Bcrypt, JWT, and local storage.",
             "Designed a user interface utilizing React and CSS."
         ],
-        url: 'tba',
-        demo: 'coming soon'
+        url: 'website',
+        demo: 'demo',
+        screenshot: 'image'
     },
     {
         title: "Virtual Board",
@@ -40,10 +44,10 @@ const PROJECTS = [
         details: [
             "Developed a Rails API with endpoints for users, whiteboards, thoughts, a to-do list, quotes, and doodles.",
             "Created a user interface utilizing object orientated JavaScript and CSS to design features and functionality."
-
         ],
-        url: 'tba',
-        demo: 'coming soon'
+        url: 'website',
+        demo: 'demo',
+        screenshot: 'image'
     }
 ]
 

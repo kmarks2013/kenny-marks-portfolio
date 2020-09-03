@@ -9,15 +9,18 @@ const ProjectSlide = ({data,index}) => {
                 className={projectIndex === index ? "active-project" : 'inactive-projects'}
                 key={projectIndex}
               >
-                <p>{project.title}</p>
-                <p>{project.description}</p>
+                <h2>{project.title}</h2>
+                <h5>{project.description}</h5>
+                <p>{project.screenshot}</p>
+                <ul className='project-details'>
+                  {project.details.map((detail, detailIndex) =>
+                    <li key={`detail-${detailIndex}`}>
+                      {detail}
+                    </li>
+                  )}
+                </ul>
                 <p>{project.url}</p>
                 <p>{project.demo}</p>
-                <ul>
-                  {project.details.map(detail => {
-                    return <li>{detail}</li>
-                  })}
-                </ul>
               </div>
             )
           }
