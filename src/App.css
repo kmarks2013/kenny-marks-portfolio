@@ -93,6 +93,7 @@ body::-webkit-scrollbar {
 .experience::-webkit-scrollbar-thumb {
   border-radius: 2px;
   background-color: rgba(0,0,0,.5);
+  box-shadow: 0 0 1px rgba(255,255,255,.5);
   -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
 }
 
@@ -126,6 +127,15 @@ body::-webkit-scrollbar {
   border-style: solid;
   border-width: 1px;
   border-color: green;
+}
+
+.active-project{
+  display:block;
+  border: 1px solid tomato;
+}
+
+.inactive-projects{
+  display: none;
 }
 
 /* blogs styling */

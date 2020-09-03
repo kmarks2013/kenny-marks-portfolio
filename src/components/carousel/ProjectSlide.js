@@ -1,16 +1,26 @@
 import React from 'react'
 
-const ProjectSlide = ({data}) => {
-
-    const itemTags = () => {
-        data.forEach( item => {
-            return <p>item</p>
-        })
-    }
+const ProjectSlide = ({data,index}) => {
     return (
         <div className='projects' >
-           {itemTags()}
-           <p> hi</p>
+          {
+            data.map((project, projectIndex) =>
+              <div 
+                className={projectIndex === index ? "active-project" : 'inactive-projects'}
+                key={projectIndex}
+              >
+                <p>{project.title}</p>
+                <p>{project.description}</p>
+                <p>{project.url}</p>
+                <p>{project.demo}</p>
+                <ul>
+                  {project.details.map(detail => {
+                    return <li>{detail}</li>
+                  })}
+                </ul>
+              </div>
+            )
+          }
         </div>
     )
 }
