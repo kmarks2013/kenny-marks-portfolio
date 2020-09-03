@@ -1,4 +1,5 @@
 import React, {useState, useEffect} from 'react'
+import BlogCard from '../components/BlogCard'
 
 function BlogContainer() {
     const [mediumPosts, setMediumPosts] = useState([])
@@ -17,7 +18,7 @@ function BlogContainer() {
             <div id='blog'>
             {console.log(mediumPosts)}
             <p>Blogs</p>
-
+            <BlogCard/>
         </div>
     )
 }
