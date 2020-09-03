@@ -20,7 +20,7 @@ function BlogContainer() {
             <div id='blog'>
             {/* {console.log(mediumPosts[0])} */}
             <p>Blogs</p>
-            <BlogCard blog={mediumPosts[0]}/>
+            { isLoading ? <p>Fetching blogs from Medium!</p> : <BlogCard blog={mediumPosts[0]}/> }
         </div>
     )
 }
