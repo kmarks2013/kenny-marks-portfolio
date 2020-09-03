@@ -10,7 +10,7 @@ const ProjectSlide = ({data,index}) => {
                 key={projectIndex}
               >
                 <h2>{project.title}</h2>
-                <p>{project.description}</p>
+                <h6>{project.description}</h6>
                 <p>{project.url}</p>
                 <p>{project.demo}</p>
                 <ul className='project-details'>
