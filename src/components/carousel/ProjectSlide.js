@@ -9,7 +9,7 @@ const ProjectSlide = ({data,index}) => {
                 className={projectIndex === index ? "active-project" : 'inactive-projects'}
                 key={projectIndex}
               >
-                <p>{project.title}</p>
+                <h2>{project.title}</h2>
                 <p>{project.description}</p>
                 <p>{project.url}</p>
                 <p>{project.demo}</p>
