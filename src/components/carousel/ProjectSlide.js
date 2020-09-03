@@ -19,7 +19,7 @@ const ProjectSlide = ({data,index}) => {
                     </li>
                   )}
                 </ul>
-                <p>{project.url}</p>
+                <a href={project.url} target="_blank" rel="noopener noreferrer">Check it out Live</a>
                 <p>{project.demo}</p>
               </div>
             )
