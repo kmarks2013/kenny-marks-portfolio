@@ -20,7 +20,6 @@ const ProjectSlide = ({data,index}) => {
                 </ul>
               </div>
             )
-            {console.log('hi')}
           }
         </div>
     )
