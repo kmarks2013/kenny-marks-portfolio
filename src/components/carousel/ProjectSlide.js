@@ -20,6 +20,8 @@ const ProjectSlide = ({data,index}) => {
                     </li>
                   )}
                 </ul>
+                <p>{project.url}</p>
+                <p>{project.demo}</p>
               </div>
             )
           }
