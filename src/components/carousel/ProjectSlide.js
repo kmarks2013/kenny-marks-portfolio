@@ -15,7 +15,7 @@ const ProjectSlide = ({data,index}) => {
                 <p>{project.demo}</p>
                 <ul>
                   {project.details.map((detail, detailIndex) =>
-                    <li className key={`detail-${detailIndex}`}>
+                    <li key={`detail-${detailIndex}`}>
                       {detail}
                     </li>
                   )}
