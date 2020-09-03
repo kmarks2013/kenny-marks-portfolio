@@ -13,7 +13,6 @@ function Carousel({data}) {
         } else{
             setCurrent(current+1)
         }
-        console.log(current)
     }
 
     const goToPrevSlide = () => {
@@ -22,11 +21,9 @@ function Carousel({data}) {
         } else{
             setCurrent(current-1)
         }
-        console.log(current)
     }
 
     const chooseProject = (index) => {
-        console.log('click', index)
         setCurrent(index)
     }
 
