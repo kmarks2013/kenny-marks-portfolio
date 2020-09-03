@@ -25,6 +25,10 @@ function Carousel({data}) {
         console.log(current)
     }
 
+    const chooseProject = () => {
+        console.log('click')
+    }
+
     return (
         <div className='carousel'>
             <LeftArrow goToPrevSlide={goToPrevSlide}/>
