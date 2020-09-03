@@ -53,7 +53,7 @@ const PROJECTS = [
 
 function Portfolio() {
     return (
-        <div id='portfolio'>
+        <div id='mywork'>
             <Carousel data={PROJECTS}/>
         </div>
     )
