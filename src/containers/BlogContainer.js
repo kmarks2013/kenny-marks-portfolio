@@ -3,6 +3,7 @@ import BlogCard from '../components/BlogCard'
 
 function BlogContainer() {
     const [mediumPosts, setMediumPosts] = useState([])
+    const [isLoading, setIsLoading] = useState(true)
 
     useEffect(() => {
         fetch("https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fmedium.com%2Ffeed%2F%40kmarks2013")
@@ -10,6 +11,7 @@ function BlogContainer() {
             .then(data => {
                 let posts = data.items.filter(article => article.categories.length > 0)
                 setMediumPosts(posts)
+                setIsLoading(false)
             })
             .catch(err=> console.log(err))
     },[])
