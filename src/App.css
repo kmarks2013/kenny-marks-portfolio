@@ -143,6 +143,11 @@ body::-webkit-scrollbar {
   list-style-type: none;
 }
 
+.project-screenshot{
+  width: 90%;
+  padding-left: 50px;
+}
+
 /* blogs styling */
 #tech-writing{
   height:90vh;
