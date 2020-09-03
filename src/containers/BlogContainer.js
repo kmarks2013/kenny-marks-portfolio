@@ -18,7 +18,7 @@ function BlogContainer() {
             <div id='blog'>
             {/* {console.log(mediumPosts[0])} */}
             <p>Blogs</p>
-            <BlogCard/>
+            <BlogCard blog={mediumPosts[0]}/>
         </div>
     )
 }
