@@ -10,7 +10,7 @@ const PROJECTS = [
             "Utilized SQL to arrange the scores table in descending order to create a top 10 list.",
             "Created an interactive user interface using Responsive Css to fit common screen sizes."
         ],
-        url: 'webiste',
+        url: 'https://total-recall-game.netlify.app/',
         demo: 'demo',
         screenshot: 'image'
        },
@@ -22,7 +22,7 @@ const PROJECTS = [
             "Created an interactive user interface applying React, Redux, React-Router, React-Hover, and custom CSS.",
             "Employed custom routes and seraizlers in a Rails API to create dynamic end-points for front end use."
         ],
-        url: 'website',
+        url: 'https://league-of-loadouts.netlify.app/',
         demo: 'demo',
         screenshot: 'image'
     },
@@ -34,7 +34,7 @@ const PROJECTS = [
             "Implemented authorization and authentication using Bcrypt, JWT, and local storage.",
             "Designed a user interface utilizing React and CSS."
         ],
-        url: 'website',
+        url: 'https://the-doctor-regens.netlify.app/',
         demo: 'demo',
         screenshot: 'image'
     },
@@ -45,7 +45,7 @@ const PROJECTS = [
             "Developed a Rails API with endpoints for users, whiteboards, thoughts, a to-do list, quotes, and doodles.",
             "Created a user interface utilizing object orientated JavaScript and CSS to design features and functionality."
         ],
-        url: 'website',
+        url: 'https://virtual-board-fa036.firebaseapp.com/',
         demo: 'demo',
         screenshot: 'image'
     }
