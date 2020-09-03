@@ -28,7 +28,7 @@ const ProjectSlide = ({data,index, chooseProject}) => {
             <div className='project-buttons'>
               {
                 data.map((project, projectIndex) =>{
-                  return <div className='select-button' key={projectIndex} onClick={chooseProject}>{project.title}</div>
+                  return <div className={`select-button ${projectIndex}`} key={projectIndex} onClick={(projectIndex) => chooseProject(projectIndex)}>{project.title}</div>
                   }
                 )
               }

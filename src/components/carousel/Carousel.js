@@ -25,8 +25,8 @@ function Carousel({data}) {
         console.log(current)
     }
 
-    const chooseProject = () => {
-        console.log('click')
+    const chooseProject = (index) => {
+        console.log('click', index)
     }
 
     return (
