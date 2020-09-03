@@ -34,7 +34,7 @@ const PROJECTS = [
             "Implemented authorization and authentication using Bcrypt, JWT, and local storage.",
             "Designed a user interface utilizing React and CSS."
         ],
-        url: 'website',
+        url: 'https://the-doctor-regens.netlify.app/',
         demo: 'demo',
         screenshot: 'image'
     },
