@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ProjectSlide = ({data,index}) => {
+const ProjectSlide = ({data,index, chooseProject}) => {
     return (
         <div className='projects' >
           {
@@ -25,12 +25,14 @@ const ProjectSlide = ({data,index}) => {
               </div>
             )
           }
-          {
-            data.map((project, projectIndex) =>{
-              return <button key={projectIndex}>{project.title}</button>
+            <div className='project-buttons'>
+              {
+                data.map((project, projectIndex) =>{
+                  return <div className='select-button' key={projectIndex} onClick={chooseProject}>{project.title}</div>
+                  }
+                )
               }
-            )
-          }
+            </div>
         </div>
     )
 }
