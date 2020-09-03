@@ -10,7 +10,7 @@ const PROJECTS = [
             "Utilized SQL to arrange the scores table in descending order to create a top 10 list.",
             "Created an interactive user interface using Responsive Css to fit common screen sizes."
         ],
-        url: 'webiste',
+        url: 'https://total-recall-game.netlify.app/',
         demo: 'demo',
         screenshot: 'image'
        },
