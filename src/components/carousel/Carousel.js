@@ -27,6 +27,7 @@ function Carousel({data}) {
 
     const chooseProject = (index) => {
         console.log('click', index)
+        setCurrent(index)
     }
 
     return (
