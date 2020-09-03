@@ -6,7 +6,7 @@ const BlogCard = ({blog}) => {
     return (
         <div>
             ill render the whole Blog
-            {console.log(blog)}
+            {console.log(blog.thumbnail)}
             <BlogInfo/>
             <BlogImage/>
         </div>
