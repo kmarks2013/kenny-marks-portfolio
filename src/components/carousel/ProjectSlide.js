@@ -25,15 +25,14 @@ const ProjectSlide = ({data,index}) => {
               </div>
             )
           }
-          <div className='project-buttons'>
-            {
-              data.map((project, projectIndex) =>{
-                return <button key={projectIndex}>{project.title}</button>
-                }
-              )
-            }
-          </div>
-
+            <div className='project-buttons'>
+              {
+                data.map((project, projectIndex) =>{
+                  return <div className='select-button' key={projectIndex}>{project.title}</div>
+                  }
+                )
+              }
+            </div>
         </div>
     )
 }
