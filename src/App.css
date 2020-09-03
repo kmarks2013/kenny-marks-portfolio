@@ -161,6 +161,8 @@ body::-webkit-scrollbar {
 .project-buttons{
   display: flex;
   justify-content: space-around;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .select-button{
