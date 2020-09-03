@@ -24,7 +24,7 @@ const PROJECTS = [
         ],
         url: 'https://league-of-loadouts.netlify.app/',
         demo: 'demo',
-        screenshot: 'image'
+        screenshot: '../assets/leagueofloadouts.png'
     },
     {
         title: "The Doctor Regens",
@@ -36,7 +36,7 @@ const PROJECTS = [
         ],
         url: 'https://the-doctor-regens.netlify.app/',
         demo: 'demo',
-        screenshot: 'image'
+        screenshot: '../assets/thedoctorregens.png'
     },
     {
         title: "Virtual Board",
@@ -47,7 +47,7 @@ const PROJECTS = [
         ],
         url: 'https://virtual-board-fa036.firebaseapp.com/',
         demo: 'demo',
-        screenshot: 'image'
+        screenshot: '../assets/virtualboard.png'
     }
 ]
 
