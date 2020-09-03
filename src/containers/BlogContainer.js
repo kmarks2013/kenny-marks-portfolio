@@ -13,9 +13,11 @@ function BlogContainer() {
             .catch(err=> console.log(err))
     },[])
 
-    return (
-        <div id='blog'>
+        return (
+            <div id='blog'>
+            {console.log(mediumPosts)}
             <p>Blogs</p>
+
         </div>
     )
 }
