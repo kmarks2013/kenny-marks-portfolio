@@ -138,6 +138,11 @@ body::-webkit-scrollbar {
   display: none;
 }
 
+.project-details{
+  margin-left: 15px;
+  list-style-type: none;
+}
+
 /* blogs styling */
 #tech-writing{
   height:90vh;
