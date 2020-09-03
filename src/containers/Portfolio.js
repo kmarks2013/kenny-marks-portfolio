@@ -22,7 +22,7 @@ const PROJECTS = [
             "Created an interactive user interface applying React, Redux, React-Router, React-Hover, and custom CSS.",
             "Employed custom routes and seraizlers in a Rails API to create dynamic end-points for front end use."
         ],
-        url: 'website',
+        url: 'https://league-of-loadouts.netlify.app/',
         demo: 'demo',
         screenshot: 'image'
     },
