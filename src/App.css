@@ -160,7 +160,14 @@ body::-webkit-scrollbar {
   justify-content: space-around;
 }
 
-
+.select-button{
+  border-radius: 15px;
+  border-style: solid;
+  padding:auto;
+  background-color: white;
+  padding: 0px 15px;
+  /* margin: 10 auto; */
+}
 
 /* blogs styling */
 #tech-writing{
