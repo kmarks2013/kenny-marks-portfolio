@@ -13,7 +13,7 @@ const ProjectSlide = ({data,index}) => {
                 <p>{project.description}</p>
                 <p>{project.url}</p>
                 <p>{project.demo}</p>
-                <ul>
+                <ul className='project-details'>
                   {project.details.map((detail, detailIndex) =>
                     <li key={`detail-${detailIndex}`}>
                       {detail}
