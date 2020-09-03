@@ -130,8 +130,13 @@ body::-webkit-scrollbar {
 }
 
 .active-project{
-  display:block;
+  display:flex;
+  flex-direction: column;
   border: 1px solid tomato;
+}
+
+.active-project>*{
+  margin: auto;
 }
 
 .inactive-projects{
@@ -139,12 +144,13 @@ body::-webkit-scrollbar {
 }
 
 .project-details{
-  margin-left: 15px;
+  /* margin-left: 15px; */
+  font-size: 12px;
   list-style-type: none;
 }
 
 .project-screenshot{
-  width: 90%;
+  width: 75%;
   padding-left: 50px;
 }
 
