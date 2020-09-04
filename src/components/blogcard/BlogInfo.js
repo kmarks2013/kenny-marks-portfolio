@@ -2,7 +2,7 @@ import React from 'react'
 
 const BlogInfo = () => {
     return (
-        <div>
+        <div className='blog-info'>
             renders the rest of the blog information!
         </div>
     )
