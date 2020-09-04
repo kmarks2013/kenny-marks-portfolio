@@ -7,7 +7,7 @@ const BlogCard = ({blog}) => {
         <div>
             ill render the whole Blog
             {console.log(blog.thumbnail)}
-            <BlogInfo/>
+            <BlogInfo blog={blog}/>
             <BlogImage src={blog.thumbnail}/>
         </div>
     )
