@@ -1,9 +1,10 @@
 import React from 'react'
 
-const BlogInfo = () => {
+const BlogInfo = ({blog}) => {
     return (
         <div className='blog-info'>
-            renders the rest of the blog information!
+            <p>{blog.title}</p>
+            <p>{blog.pubDate}</p>
         </div>
     )
 }
