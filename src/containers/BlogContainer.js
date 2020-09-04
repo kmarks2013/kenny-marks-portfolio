@@ -2,7 +2,7 @@ import React from 'react'
 
 function BlogContainer() {
     return (
-        <div id='tech-writing'>
+        <div id='blog'>
             <p>Blogs</p>
         </div>
     )
