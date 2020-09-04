@@ -4,10 +4,10 @@ import BlogImage from './blogcard/BlogImage'
 
 const BlogCard = ({blog}) => {
     return (
-        <div>
+        <div className='blog-card'>
             ill render the whole Blog
             {console.log(blog.thumbnail)}
-            <BlogInfo/>
+            <BlogInfo blog={blog}/>
             <BlogImage src={blog.thumbnail}/>
         </div>
     )

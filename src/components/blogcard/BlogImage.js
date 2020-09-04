@@ -3,7 +3,7 @@ import React from 'react'
 const BlogImage = ({src}) => {
     return (
         <div>
-            <img  width='50px' src={src} alt='img' />
+            <img className='blog-thumb' width='50px' src={src} alt='img' />
         </div>
     )
 }
