@@ -5,8 +5,8 @@ import BlogImage from './blogcard/BlogImage'
 const BlogCard = ({blog}) => {
     return (
         <div className='blog-card'>
-            <BlogInfo blog={blog}/>
             <BlogImage src={blog.thumbnail}/>
+            <BlogInfo blog={blog}/>
         </div>
     )
 }
