@@ -4,7 +4,7 @@ import BlogImage from './blogcard/BlogImage'
 
 const BlogCard = ({blog}) => {
     return (
-        <div>
+        <div className='blog-card'>
             ill render the whole Blog
             {console.log(blog.thumbnail)}
             <BlogInfo blog={blog}/>
