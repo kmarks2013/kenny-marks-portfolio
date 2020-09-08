@@ -180,11 +180,12 @@ body::-webkit-scrollbar {
   border-width: 1px;
   border-color: navy;
   background-color: darkkhaki;
+  display: flex;
 }
 
 .bloglist{
-  justify-content: center;
-  display:inline-flex;
+  margin: auto;
+  display:flex;
   flex-flow: wrap;
 }
 
@@ -192,6 +193,15 @@ body::-webkit-scrollbar {
   border: solid 1px teal;
   width: 30vh;
   margin: auto;
+  /* margin-left: 80px; */
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px 5px darkgrey;
+}
+
+.blog-thumb{
+  margin: 0 auto;
+  width: 150px;
+  height: 150px;
 }
 
 /* twitter feed styling */
