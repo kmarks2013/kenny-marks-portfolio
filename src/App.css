@@ -182,6 +182,10 @@ body::-webkit-scrollbar {
   background-color: darkkhaki;
 }
 
+.blog-card{
+  border: solid 1px teal;
+}
+
 /* twitter feed styling */
 #twitter{
   height:90vh;
