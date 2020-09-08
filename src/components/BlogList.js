@@ -3,9 +3,9 @@ import BlogCard from './BlogCard'
 
 const BlogList = ({blogs}) => {
 
-    const renderBlogs = blogs.map(blog=> {
-        console.log(blog)
-    })
+    const renderBlogs = blogs.map(blog=>
+        <BlogCard blog={blog} />
+    )
 
     return (
         <div>
