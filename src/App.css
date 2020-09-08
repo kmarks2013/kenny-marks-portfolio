@@ -193,6 +193,7 @@ body::-webkit-scrollbar {
   border: solid 1px teal;
   width: 30vh;
   margin: auto;
+  /* margin-left: 80px; */
   border-radius: 10px;
 }
 
