@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react'
-import BlogCard from '../components/BlogCard'
+import BlogList from '../components/BlogList'
 
 function BlogContainer() {
     const [mediumPosts, setMediumPosts] = useState([])
@@ -20,7 +20,7 @@ function BlogContainer() {
             <div id='blog' className='blog-container'>
             {/* {console.log(mediumPosts[0])} */}
             <p>Blogs</p>
-            { isLoading ? <p>Fetching blogs from Medium!</p> : <BlogCard blog={mediumPosts[0]}/> }
+            { isLoading ? <p>Fetching blogs from Medium!</p> : <BlogList/> }
         </div>
     )
 }
