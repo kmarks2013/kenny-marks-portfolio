@@ -185,6 +185,7 @@ body::-webkit-scrollbar {
 .blog-card{
   border: solid 1px teal;
   width: 30vh;
+  margin: auto;
 }
 
 /* twitter feed styling */
