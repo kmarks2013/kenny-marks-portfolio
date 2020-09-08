@@ -185,6 +185,7 @@ body::-webkit-scrollbar {
 .bloglist{
   justify-content: center;
   display:inline-flex;
+  flex-flow: wrap;
 }
 
 .blog-card{
