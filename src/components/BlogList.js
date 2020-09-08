@@ -8,8 +8,7 @@ const BlogList = ({blogs}) => {
     )
 
     return (
-        <div>
-            all blogs will render here!
+        <div className='bloglist'>
             {renderBlogs}
             {/* <BlogCard blog={blogs[0]}/> */}
         </div>
