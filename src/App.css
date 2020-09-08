@@ -201,6 +201,7 @@ body::-webkit-scrollbar {
 }
 
 .blog-thumb{
+  margin: auto;
   width: 150px;
   height: 150px;
 }
