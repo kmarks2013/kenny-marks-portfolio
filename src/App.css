@@ -200,6 +200,8 @@ body::-webkit-scrollbar {
 
 .blog-thumb{
   margin: 0 auto;
+  width: 150px;
+  height: 150px;
 }
 
 /* twitter feed styling */
