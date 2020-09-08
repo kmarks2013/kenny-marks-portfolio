@@ -10,7 +10,8 @@ const BlogList = ({blogs}) => {
     return (
         <div>
             all blogs will render here!
-            <BlogCard blog={blogs[0]}/>
+            {renderBlogs}
+            {/* <BlogCard blog={blogs[0]}/> */}
         </div>
     )
 }
