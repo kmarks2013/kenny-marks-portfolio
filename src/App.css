@@ -195,6 +195,7 @@ body::-webkit-scrollbar {
   margin: auto;
   /* margin-left: 80px; */
   border-radius: 10px;
+  box-shadow: 2px 2px 10px 5px darkgrey;
 }
 
 /* twitter feed styling */
