@@ -19,7 +19,6 @@ function BlogContainer() {
         return (
             <div id='blog' className='blog-container'>
             {/* {console.log(mediumPosts[0])} */}
-            <p>Blogs</p>
             { isLoading ? <p>Fetching blogs from Medium!</p> : <BlogList blogs={mediumPosts}/> }
         </div>
     )
