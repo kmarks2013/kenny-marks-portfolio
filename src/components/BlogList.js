@@ -10,7 +10,6 @@ const BlogList = ({blogs}) => {
     return (
         <div className='bloglist'>
             {renderBlogs}
-            {/* <BlogCard blog={blogs[0]}/> */}
         </div>
     )
 }
