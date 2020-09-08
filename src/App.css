@@ -184,8 +184,7 @@ body::-webkit-scrollbar {
 }
 
 .bloglist{
-  justify-content: center;
-  display:inline-flex;
+  display:flex;
   flex-flow: wrap;
 }
 
