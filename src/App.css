@@ -213,6 +213,10 @@ body::-webkit-scrollbar {
   place-items: center;
 }
 
+.blog-info a, p{
+  text-align: center;
+}
+
 /* twitter feed styling */
 #twitter{
   height:90vh;
