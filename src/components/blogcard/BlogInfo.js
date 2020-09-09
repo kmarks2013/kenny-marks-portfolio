@@ -3,8 +3,11 @@ import React from 'react'
 const BlogInfo = ({blog}) => {
     return (
         <div className='blog-info'>
-            <p>{blog.title}</p>
-            <p>{blog.pubDate}</p>
+            <a href={blog.link} target='_blank'>{blog.title}</a>
+            <p>
+                Published:{" "}
+                {blog.pubDate}
+            </p>
         </div>
     )
 }

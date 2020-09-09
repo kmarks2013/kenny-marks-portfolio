@@ -206,6 +206,17 @@ body::-webkit-scrollbar {
   height: 150px;
 }
 
+.blog-info{
+  display: flex;
+  flex-direction: column;
+  /* margin: auto; */
+  place-items: center;
+}
+
+.blog-info a, p{
+  text-align: center;
+}
+
 /* twitter feed styling */
 #twitter{
   height:90vh;
