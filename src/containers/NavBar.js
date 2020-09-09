@@ -17,7 +17,7 @@ function NavBar() {
                 <NavLink scroll={el => el.scrollIntoView({ behavior: 'smooth', block: 'end' })} to='/#my-work' onClick={(e) => handleClick(e)} > My Work </NavLink>
                 <NavLink scroll={el => el.scrollIntoView({ behavior: 'smooth', block: 'end' })} to='/#blog' onClick={(e) => handleClick(e)} > My Blog </NavLink>
                 <NavLink scroll={el => el.scrollIntoView({ behavior: 'smooth', block: 'end' })} to='/#twitter' onClick={(e) => handleClick(e)} > Twitter </NavLink>
-                <NavLink scroll={el => el.scrollIntoView({ behavior: 'smooth', block: 'end' })} to='/#contact' onClick={(e) => handleClick(e)} > Connect </NavLink>
+                <NavLink scroll={el => el.scrollIntoView({ behavior: 'smooth', block: 'end' })} to='/#external' onClick={(e) => handleClick(e)} > External </NavLink>
             </div>
         </div>
     )

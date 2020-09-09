@@ -227,7 +227,7 @@ body::-webkit-scrollbar {
 }
 
 /* web links styling */
-#contact{
+#external{
   border-style: solid;
   border-width: 1px;
   border-color: black;
