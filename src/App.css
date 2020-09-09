@@ -190,6 +190,8 @@ body::-webkit-scrollbar {
 }
 
 .blog-card{
+  display:flex;
+  flex-direction: column;
   border: solid 1px teal;
   width: 30vh;
   margin: auto;
@@ -199,7 +201,7 @@ body::-webkit-scrollbar {
 }
 
 .blog-thumb{
-  margin: 0 auto;
+  margin: auto;
   width: 150px;
   height: 150px;
 }
