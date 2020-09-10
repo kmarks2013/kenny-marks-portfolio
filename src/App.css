@@ -10,6 +10,7 @@ body::-webkit-scrollbar {
 }
 /* navbar styling */
 #navbar{
+  font-family: '8-BIT WONDER';
   width:100vw;
   height:10vh;
   border-style: ridge;
