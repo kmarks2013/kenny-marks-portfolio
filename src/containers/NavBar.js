@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import { NavHashLink as NavLink } from 'react-router-hash-link';
+// import { useHistory } from "react-router-dom"
 
 function NavBar() {
     const [title, setTitle] = useState("Kenny Marks")
