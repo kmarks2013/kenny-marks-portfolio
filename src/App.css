@@ -227,7 +227,7 @@ body::-webkit-scrollbar {
   place-items: center;
 }
 
-.blog-info a, p{
+.blog-info a, .blog-info p{
   text-align: center;
 }
 
