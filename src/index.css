@@ -11,3 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: '8-BIT WONDER';
+  src: local('8-BIT WONDER'), url('./fonts/8-BIT WONDER.TTF') format('truetype');
+}
+
+@font-face {
+  font-family: 'Return of Ganon';
+  src: local('ReturnofGanon'), url('./fonts/ReturnofGanon.ttf') format('truetype');
+}
+
+@font-face {
+   font-family: 'Megaman 2';
+  src: local('megaman_2'), url('./fonts/megaman_2.ttf') format('truetype');
+}

@@ -18,9 +18,9 @@ function AboutMe() {
                     <div className='about-body'>
                         <img className='about-img' src='../assets/headshot.jpg' alt='headshot'/>
                         <div className='about-info'>
-                            <h3 id="bio">Bio:</h3>
+                            <h3 className="about-head">Bio:</h3>
                             <p className='bio-text'>New York based full-stack web developer experienced in Ruby on Rails, JavaScript, React, and Redux. Discovered a love of programming while completing graduate school studies in International Cybersecurity at New York University. Seeking to build exciting yet secure applications for both consumers and businesses use.</p>
-                            <h3> Technical Skills: </h3>
+                            <h3 className='about-head' > Technical Skills: </h3>
                             <table>
                                 <tbody>
 
@@ -61,7 +61,7 @@ function AboutMe() {
                         <img className='about-img' src='../assets/fruitsnacks.jpeg' alt='fruitsnacks'/>
                         <div className='about-info'>
                         <div className='experience'>
-                                <h3>Experience:</h3>
+                                <h3 className='about-head'>Experience:</h3>
                                 <p><span className='company' >Fine Buy Rite,</span> Farmingdale, NY</p>
                                 <p><span className='position' >Assistant Manager,</span> 2017-2019</p>
                                 <ul className='duties'>
@@ -104,7 +104,7 @@ function AboutMe() {
                                     </li>
                                 </ul>
                             </div>
-                            <h3>Hobbies:</h3>
+                            <h3 className='about-head'>Hobbies:</h3>
                             <p>  I am an avid gamer, blogger, love to build models, cook, run, travel, reading, volunteering. need  to  touch up this  section </p>
                         </div>
                     </div>
