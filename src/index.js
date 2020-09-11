@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import './fonts/8-BIT WONDER.TTF'
 import './fonts/ReturnofGanon.ttf'
+import './fonts/megaman_2.ttf'
 import * as serviceWorker from './serviceWorker';
 import { BrowserRouter as Router } from 'react-router-dom'
 
