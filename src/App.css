@@ -12,7 +12,7 @@ body::-webkit-scrollbar {
 #navbar{
   font-family: '8-BIT WONDER';
   width:100vw;
-  height:10vh;
+  height:11vh;
   border-style: ridge;
   border-width: 2px;
   border-color: black;
@@ -40,6 +40,13 @@ body::-webkit-scrollbar {
   left: 0;
   width: 100%;
   padding-bottom: 5px;
+}
+
+.nav-link{
+  font-family: 'Return of Ganon';
+  font-size: 18px;
+  font-weight: bold;
+  border: 1px solid black;
 }
 
 .content{
@@ -85,8 +92,9 @@ body::-webkit-scrollbar {
   border: 1px solid grey;
 }
 .company{
-  font-weight: bold;
+  font-weight: bolder;
   font-family: 'Return of Ganon';
+
   margin: 0 0 0 0;
 }
 
