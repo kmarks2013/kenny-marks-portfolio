@@ -55,7 +55,7 @@ body::-webkit-scrollbar {
 
 /* about-me styling */
 #about-me{
-  height: 90vh;
+  height: 88vh;
   border-style: solid;
   border-width: 1px;
   border-color: red;
