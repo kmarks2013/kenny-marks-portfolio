@@ -16,7 +16,7 @@ body::-webkit-scrollbar {
   border-style: ridge;
   border-width: 2px;
   border-color: black;
-  background-color: deepskyblue;
+  background-color: #85869A;
   position: sticky;
   z-index: 1;
   top: 0;
