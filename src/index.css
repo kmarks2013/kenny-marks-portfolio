@@ -26,3 +26,8 @@ code {
    font-family: 'Megaman 2';
   src: local('megaman_2'), url('./fonts/megaman_2.ttf') format('truetype');
 }
+
+@font-face {
+  font-family: 'SNES';
+  src: local('SNES Italic'), url('./fonts/SNES Italic.ttf') format('truetype')
+}
