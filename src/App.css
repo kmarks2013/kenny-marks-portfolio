@@ -64,6 +64,8 @@ body::-webkit-scrollbar {
   width: 110px;
   height: 37px;
   border: 1px solid rgba(54,40,99, .8);
+  top: -4px;
+  left: -6px;
 }
 
 .content{
