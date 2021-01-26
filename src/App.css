@@ -33,6 +33,7 @@ body::-webkit-scrollbar {
 
 .eject-div{
   width: 100%;
+  display:flex;
 }
 
 .eject-button{
