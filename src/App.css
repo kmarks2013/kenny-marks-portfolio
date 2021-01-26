@@ -46,7 +46,7 @@ body::-webkit-scrollbar {
 .nav-link{
   font-family: 'SNES';
   font-size: 18px;
-  border: 1px solid black;
+  color: white;
 }
 
 .content{
