@@ -4,7 +4,7 @@ import BlogCard from './BlogCard'
 const BlogList = ({blogs}) => {
 
     const renderBlogs = blogs.map(blog=>
-        <BlogCard blog={blog} />
+        <BlogCard key={blog.pubDate} blog={blog} />
     )
 
     return (
