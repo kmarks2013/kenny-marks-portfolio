@@ -42,7 +42,6 @@ body::-webkit-scrollbar {
 
 .eject-button{
   margin: 0 auto;
-  border: 2px ridge black;
   box-shadow: 3px 1px 3px inset black,
     0px -2px 3px inset black,
     -5px 0 4px inset #636679
