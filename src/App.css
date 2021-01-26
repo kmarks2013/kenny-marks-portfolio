@@ -298,8 +298,7 @@ body::-webkit-scrollbar {
 #external{
   border-style: solid;
   border-width: 1px;
-  border-color: black;
-  background-color: lightslategray;
+  background-color: rgb(175,180,199);
 }
 
 .weblinks{
