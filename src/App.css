@@ -31,6 +31,14 @@ body::-webkit-scrollbar {
   font-size: 60px;
 }
 
+.eject-button{
+  margin: 0 auto;
+  border: 2px ridge black;
+  background-color: #88899D;
+  width:  20vw;
+  height: 14vh;
+}
+
 .nav-links{
   display:flex;
   margin-right: 15px;
