@@ -52,7 +52,9 @@ body::-webkit-scrollbar {
   background-color: rgba(88,73,140);
   border: 1px solid rgba(54,40,99, .8);
   border-radius: 45px;
-  box-shadow: 10px 5px 5px inset rgb(51,37,96);
+  box-shadow: 10px 5px 5px inset rgb(51,37,96),
+    -5px 0 5px inset rgb(229,224,250)
+  ;
 }
 
 .content{
