@@ -2,6 +2,16 @@ import React from 'react'
 import Carousel from '../components/carousel/Carousel'
 
 const PROJECTS = [
+    {   title: "TETRIACT",
+        description: "TETRIACT is an web-based tetris arcade simualtor. Users can play to have their scores in the top 10.",
+        details: [
+            "Constructed an interactive Tetris board allowing a player to move the tetrominos using arrow keys","Employed React Hooks for state management and created a variety of custom hooks",
+            "Applied  Styled Components to design the user interface"
+        ],
+        url: 'https://tetriact.netlify.app/',
+        demo: 'to be added',
+        screenshot: '../assets/tetriact.png'
+    },
     {
         title: "Total Recall",
         description: "Total Recall is an arcade style memory game. Users can compete to have their score in the top 10 ten.",
