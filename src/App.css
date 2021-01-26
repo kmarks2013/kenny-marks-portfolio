@@ -104,7 +104,7 @@ body::-webkit-scrollbar {
   border-style: solid;
   border-width: 1px;
   border-color: red;
-  background-color: chocolate;
+  background-color: rgb(175,180,199);
 }
 .flippy-front, .flippy-back {
   height: 80vh;
