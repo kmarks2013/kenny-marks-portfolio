@@ -14,14 +14,15 @@ body::-webkit-scrollbar {
   display:flex;
   width:100vw;
   height:14vh;
-  border-style: ridge;
-  border-width: 2px;
-  border-color: black;
   background-color: #AFB4C7;
   position: sticky;
   z-index: 1;
   top: 0;
   left: 0;
+  box-shadow: 3px 1px 3px inset black,
+    0px -2px 3px inset black,
+    -5px 0 4px inset #636679
+  ;
 }
 
 .nav-title{
@@ -41,7 +42,6 @@ body::-webkit-scrollbar {
 
 .eject-button{
   margin: 0 auto;
-  border: 2px ridge black;
   box-shadow: 3px 1px 3px inset black,
     0px -2px 3px inset black,
     -5px 0 4px inset #636679
@@ -53,8 +53,6 @@ body::-webkit-scrollbar {
 
 .nav-links{
   display:flex;
-  margin-right: 15px;
-  margin-left: 15px;
   margin-bottom: 8px;
   justify-content: space-evenly;
   position: absolute;
@@ -66,6 +64,7 @@ body::-webkit-scrollbar {
 
 .nav-link{
   font-family: 'SNES';
+  margin: 0 auto;
   font-size: 24px;
   color: white;
   padding: 2px 20px 2px 20px;
