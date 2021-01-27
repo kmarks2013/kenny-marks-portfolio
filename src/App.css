@@ -81,6 +81,7 @@ body::-webkit-scrollbar {
 .nav-links-left, .nav-links-right {
   display: flex;
   margin: 0 auto;
+  width: 50%;
 }
 
 .nav-link{
