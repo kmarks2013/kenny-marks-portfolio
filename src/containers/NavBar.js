@@ -21,7 +21,9 @@ function NavBar() {
                 <NavLink className='nav-link' scroll={el => el.scrollIntoView({ behavior: 'smooth', block: 'end' })} to='/#external' onClick={(e) => handleClick(e)} >External</NavLink>
             </div>
             <div className='eject-div'>
-                <div className='eject-button'>Kenny Marks</div>
+                <div className='eject-button'>
+                   <h1> Kenny Marks </h1>
+                </div>
             </div>
         </div>
     )
