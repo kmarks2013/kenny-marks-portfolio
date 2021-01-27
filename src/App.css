@@ -57,6 +57,8 @@ body::-webkit-scrollbar {
   margin: 0 auto;
   font-family: 'SNES';
   font-size: 4.5vw;
+  letter-spacing: 2px;
+
 }
 
 .nav-links{
