@@ -12,7 +12,7 @@ function NavBar() {
 
     return (
         <div id='navbar'>
-            <h1 className='nav-title'>{title}</h1>
+            <h3 className='nav-title'>{title}</h3>
             <div className='nav-links'>
                 <NavLink className='nav-link' scroll={el => el.scrollIntoView({ behavior: 'smooth', block: 'end' })} to='/#about-me' onClick={(e) => handleClick(e)} > About Me </NavLink>
                 <NavLink className='nav-link' scroll={el => el.scrollIntoView({ behavior: 'smooth', block: 'end' })} to='/#my-work' onClick={(e) => handleClick(e)} > My Work </NavLink>
