@@ -11,7 +11,7 @@ function ContentContainer() {
             <AboutMe/>
             <Portfolio/>
             <BlogContainer/>
-            <TwitterFeed/>
+            {/* <TwitterFeed/> */}
             <WebLinks />
         </div>
     )
