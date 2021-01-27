@@ -138,6 +138,7 @@ body::-webkit-scrollbar {
   border-color: red;
   background-color: rgb(175,180,199);
 }
+
 .flippy-front, .flippy-back {
   height: 80vh;
   cursor: pointer;
@@ -217,9 +218,16 @@ body::-webkit-scrollbar {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px orange solid;
   size: fill;
   cursor: pointer;
+}
+
+.left-arrow{
+  box-shadow: 3px 1px 3px black, 0px -2px inset black, -5px 0px 4px inset #636679;
+}
+
+.right-arrow{
+  box-shadow: -3px 1px 3px black, 0px -2px inset black, 5px 0px 4px inset #636679;
 }
 
 .projects {
@@ -268,9 +276,13 @@ body::-webkit-scrollbar {
 
 .select-button{
   border-radius: 15px;
-  border-style: solid;
+  border-style: 1px solid;
+  box-shadow: 2px 0px 1px rgb(68,72,73),
+  -1px 0 1px rgb(124,128,127),
+  0 2px 2px rgb(77,81,82)
+  ;
   padding:auto;
-  background-color: #EFEFEF;
+  background-color: rgb(114,118,117);
   padding: 0px 15px;
 }
 
