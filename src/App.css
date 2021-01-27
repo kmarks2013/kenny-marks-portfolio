@@ -223,6 +223,10 @@ body::-webkit-scrollbar {
   cursor: pointer;
 }
 
+.left-arrow{
+  box-shadow: 3px 1px 3px black, 0px -2px inset black, -5px 0px 4px inset #636679;
+}
+
 .projects {
   display:flex;
   flex-direction: column;
