@@ -12,16 +12,18 @@ function NavBar() {
 
     return (
         <div id='navbar'>
-            <h1 className='nav-title'>{title}</h1>
+            <h3 className='nav-title'>{title}</h3>
             <div className='nav-links'>
-                <NavLink className='nav-link' scroll={el => el.scrollIntoView({ behavior: 'smooth', block: 'end' })} to='/#about-me' onClick={(e) => handleClick(e)} > About Me </NavLink>
-                <NavLink className='nav-link' scroll={el => el.scrollIntoView({ behavior: 'smooth', block: 'end' })} to='/#my-work' onClick={(e) => handleClick(e)} > My Work </NavLink>
-                <NavLink className='nav-link' scroll={el => el.scrollIntoView({ behavior: 'smooth', block: 'end' })} to='/#blog' onClick={(e) => handleClick(e)} > My Blog </NavLink>
-                <NavLink className='nav-link' scroll={el => el.scrollIntoView({ behavior: 'smooth', block: 'end' })} to='/#twitter' onClick={(e) => handleClick(e)} > Twitter </NavLink>
-                <NavLink className='nav-link' scroll={el => el.scrollIntoView({ behavior: 'smooth', block: 'end' })} to='/#external' onClick={(e) => handleClick(e)} > External </NavLink>
+                <NavLink className='nav-link' scroll={el => el.scrollIntoView({ behavior: 'smooth', block: 'end' })} to='/#about-me' onClick={(e) => handleClick(e)} >About Me</NavLink>
+                <NavLink className='nav-link' scroll={el => el.scrollIntoView({ behavior: 'smooth', block: 'end' })} to='/#my-work' onClick={(e) => handleClick(e)} >My Work</NavLink>
+                <NavLink className='nav-link' scroll={el => el.scrollIntoView({ behavior: 'smooth', block: 'end' })} to='/#blog' onClick={(e) => handleClick(e)} >My Blog</NavLink>
+                <NavLink className='nav-link' scroll={el => el.scrollIntoView({ behavior: 'smooth', block: 'end' })} to='/#twitter' onClick={(e) => handleClick(e)} >Twitter</NavLink>
+                <NavLink className='nav-link' scroll={el => el.scrollIntoView({ behavior: 'smooth', block: 'end' })} to='/#external' onClick={(e) => handleClick(e)} >External</NavLink>
             </div>
             <div className='eject-div'>
-                <div className='eject-button'>Kenny Marks</div>
+                <div className='eject-button'>
+                   <h1> Kenny Marks </h1>
+                </div>
             </div>
         </div>
     )
