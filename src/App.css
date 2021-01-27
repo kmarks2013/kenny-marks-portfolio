@@ -276,7 +276,11 @@ body::-webkit-scrollbar {
 
 .select-button{
   border-radius: 15px;
-  border-style: solid;
+  border-style: 1px solid;
+  box-shadow: 2px 0px 1px rgb(68,72,73),
+  -1px 0 1px rgb(124,128,127),
+  0 2px 2px rgb(77,81,82)
+  ;
   padding:auto;
   background-color: rgb(114,118,117);
   padding: 0px 15px;
