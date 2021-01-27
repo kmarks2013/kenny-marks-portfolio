@@ -78,6 +78,10 @@ body::-webkit-scrollbar {
   padding-bottom: 5px;
 }
 
+.nav-links-left, .nav-links-right {
+  display: flex;
+}
+
 .nav-link{
   font-family: 'SNES';
   margin: 0 auto;
