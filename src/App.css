@@ -218,7 +218,6 @@ body::-webkit-scrollbar {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px orange solid;
   size: fill;
   cursor: pointer;
 }
