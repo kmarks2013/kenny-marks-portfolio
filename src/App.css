@@ -55,6 +55,7 @@ body::-webkit-scrollbar {
 
 .eject-button h1 {
   margin: 0 auto;
+  font-family: 'SNES';
 }
 
 .nav-links{
