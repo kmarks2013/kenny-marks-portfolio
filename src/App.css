@@ -278,7 +278,7 @@ body::-webkit-scrollbar {
   border-radius: 15px;
   border-style: solid;
   padding:auto;
-  background-color: #EFEFEF;
+  background-color: rgb(114,118,117);
   padding: 0px 15px;
 }
 
