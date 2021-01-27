@@ -31,6 +31,9 @@ body::-webkit-scrollbar {
   padding-left: 15px;
   font-size: 40px;
   letter-spacing: 1px;
+  text-shadow: 0px 1px 0px rgb(255, 255, 255),
+  0px -1px 0px rgba(0,0,0.7)
+;
 }
 
 .eject-div{
@@ -73,6 +76,17 @@ body::-webkit-scrollbar {
   left: 0;
   width: 100%;
   padding-bottom: 5px;
+}
+
+.nav-links-left, .nav-links-right {
+  display: flex;
+  margin: 0 auto;
+  width: 50%;
+  padding: 0px 125px 5px 0px;
+}
+
+.nav-links-right {
+  padding: 0px 0px 5px 125px;
 }
 
 .nav-link{
