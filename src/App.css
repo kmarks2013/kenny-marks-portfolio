@@ -138,6 +138,7 @@ body::-webkit-scrollbar {
   border-color: red;
   background-color: rgb(175,180,199);
 }
+
 .flippy-front, .flippy-back {
   height: 80vh;
   cursor: pointer;
